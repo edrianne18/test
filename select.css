@@ -1,0 +1,54 @@
+#left {
+    width: 50px;
+    height: 30px;
+    border-style: solid;
+    border-width: thin;
+    font-size: 20px;
+}
+
+#right {
+    width: 50px;
+    height: 30px;
+    border-style: solid;
+    border-width: thin;
+    font-size: 20px;
+    margin-top: -31.5px;
+    margin-left: 70px;
+}
+
+#symbol {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin-left: 140px;
+    margin-top: -31.5px;
+}
+
+#equal {
+    width: 50px;
+    height: 30px;
+    border-style: solid;
+    border-width: thin;
+    font-size: 20px;
+    margin-top: -48.5px;
+    margin-left: 180px;
+}
+
+#selector {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#go {
+    width: 37px;
+    height: 27px;
+    border-style: solid;
+    border-width: thin;
+    font-size: 25px;
+    margin-top: -23px;
+    margin-left: 77px;
+}
+
+#go:active {
+    color: red;
+    user-select: none;
+}
