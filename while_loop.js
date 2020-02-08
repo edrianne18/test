@@ -1,12 +1,10 @@
-function ang_for_loop() {
+function ang_while_loop() {
     var ang_number = prompt ("magbigay ng no.", 1);
     ang_number = parseInt (ang_number);
     if (isNaN (ang_number)) {
         document.write("DAPAT NO. LANG ANG INE-ENTER!!!");
         return;
     }
-
-
     var i = 0;
     while (i < ang_number) {
         setTimeout (function() {
@@ -16,7 +14,6 @@ function ang_for_loop() {
         }, 400*i);
         i++;
     }
-
     /** FOR LOOP
     for (var i=0; i < ang_number; i++) {
         setTimeout (function() {

@@ -27,5 +27,4 @@ $(document).ready(function(){
     $(sel).append(opt);
 
     $("#ops").append(sel);
-
 })
